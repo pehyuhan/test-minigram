@@ -34,4 +34,5 @@ class GramsController < ApplicationController
   def model_params
     params.require(:gram).permit(:title, :description, :location_code)
   end
+
 end
