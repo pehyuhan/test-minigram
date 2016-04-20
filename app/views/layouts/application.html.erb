@@ -9,6 +9,12 @@
 <body>
 <h1>Minigram</h1>
 
+<% if flash[:notice].present? %>
+<div>
+  <%= flash[:notice] %>
+</div>
+<% end %>
+
 <%= yield %>
 
 </body>
