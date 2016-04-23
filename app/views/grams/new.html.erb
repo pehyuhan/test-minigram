@@ -10,7 +10,6 @@
   </li>
   <% end %>
 </ul>
-<!-- @gram.errors.full_messages -->
 </div>
 <% end %>
 
@@ -34,8 +33,6 @@
   <%= f.label :location_code %>
   <%= f.country_select :location_code, {include_blank:true, priority_countries: ["SG", "MY"]}, {class: 'form-control'} %>
   </div>
-
-  <!--def country select(attr, select_options, html_options)-->
 
   <div>
   <%= f.submit class: 'btn btn-success'%>
